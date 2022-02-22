@@ -1,36 +1,34 @@
 
 body{
   font-family: "Lilita one";
+  text-align: center;
 }
 
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.container-fluid{
-  padding: 3% 15% 7%;
-}
-
-h1{
-  font-family: "Lilita One",cursive;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2{
-  font-family: "Lilita One",cursive;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3{
-  font-family: "Lilita One",cursive;
-  font-size: 1.5rem;
+h1,h2,h3,h4,h5,h6{
+  font-family: "Lilita One";
 }
 
 p{
   color: #8f8f8f;
+}
+
+/*Heading*/
+
+.big-heading{
+  font-family: "Lilita One";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*containers*/
+
+.container-fluid{
+  padding: 7% 15% ;
 }
 
 /*navigation Bar*/
@@ -59,6 +57,18 @@ p{
   margin: 6% 4% 6% 0;
 }
 
+/*Title section*/
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.title-container-fluid{
+  padding: 3% 15% 7%;
+}
+
 /*Title image*/
 
 .title-image{
@@ -71,13 +81,11 @@ p{
 /*Features section*/
 
 #features{
-padding: 7% 15%;
 background-color: #fff;
 position:relative;
 }
 
 .feature-box{
-  text-align: center;
   padding: 5%;
 }
 
@@ -90,10 +98,13 @@ margin-bottom: 1rem;
   color: #ff4c68;
 }
 
+.feature-title{
+    font-size: 1.5rem;
+}
+
 /*testimonials section*/
 
 #testimonials{
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -104,14 +115,14 @@ margin-bottom: 1rem;
   margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 2%;
 
 }
@@ -125,7 +136,6 @@ margin-bottom: 1rem;
 
 #pricing{
 padding: 100px;
-  text-align: center;
 }
 
 .pricing-column{
@@ -138,21 +148,42 @@ padding: 100px;
 
 .card-header{
   background-color: #ff4c68;
+  color: #fff;
 }
 
 .btnhover{
 background-color:  #ff4c68;
 border-color:#ff4c68;
+color: #fff;
 }
 
 .btnhover:hover{
   background-color: #ff4c68;
-  color: #fff;
+  color: #000;
   border-color: #ef8172;
 }
 
 .card-footer{
   background-color: #fff;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*CTA Section*/
+
+#cta{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+/*Footer Section*/
+
+.social-icon{
+  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
